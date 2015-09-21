@@ -1,0 +1,540 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/20/2015 1:52:24 PM.
+Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\3.3.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\3.3.0\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+OCLCopyBIN:
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\opencv_ffmpeg300.dll" to ".\opencv_ffmpeg300.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb.dll" to ".\tbb.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc.dll" to ".\tbbmalloc.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc_debug.dll" to ".\tbbmalloc_debug.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb_debug.dll" to ".\tbb_debug.dll".
+Done Building Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\3.3.0\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.34
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "opencv_ffmpeg300.dll"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "tbb.dll"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "tbbmalloc.dll"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "tbbmalloc_debug.dll"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "tbb_debug.dll"
+
+The C compiler identification is MSVC, found in "C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/3.3.0/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_0d0c9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/20/2015 1:52:27 PM.
+Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\cmTC_0d0c9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0d0c9.dir\Debug\".
+  Creating directory "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0d0c9.dir\Debug\cmTC_0d0c9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0d0c9.dir\Debug\cmTC_0d0c9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0d0c9.dir\Debug\\" /Fd"cmTC_0d0c9.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0d0c9.dir\Debug\\" /Fd"cmTC_0d0c9.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\cmTC_0d0c9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp/Debug/cmTC_0d0c9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp/Debug/cmTC_0d0c9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_0d0c9.dir\Debug\testCCompiler.obj
+  cmTC_0d0c9.vcxproj -> C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\cmTC_0d0c9.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_0d0c9.dir\Debug\cmTC_0d0c9.tlog\unsuccessfulbuild".
+  Touching "cmTC_0d0c9.dir\Debug\cmTC_0d0c9.tlog\cmTC_0d0c9.lastbuildstate".
+OCLCopyBIN:
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\opencv_ffmpeg300.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\opencv_ffmpeg300.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbb.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbbmalloc.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc_debug.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbbmalloc_debug.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb_debug.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbb_debug.dll".
+Done Building Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\cmTC_0d0c9.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.31
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_efd0f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/20/2015 1:52:30 PM.
+Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\cmTC_efd0f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_efd0f.dir\Debug\".
+  Creating directory "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_efd0f.dir\Debug\cmTC_efd0f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_efd0f.dir\Debug\cmTC_efd0f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_efd0f.dir\Debug\\" /Fd"cmTC_efd0f.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_efd0f.dir\Debug\\" /Fd"cmTC_efd0f.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\cmTC_efd0f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp/Debug/cmTC_efd0f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp/Debug/cmTC_efd0f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_efd0f.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_efd0f.vcxproj -> C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\cmTC_efd0f.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_efd0f.dir\Debug\cmTC_efd0f.tlog\unsuccessfulbuild".
+  Touching "cmTC_efd0f.dir\Debug\cmTC_efd0f.tlog\cmTC_efd0f.lastbuildstate".
+OCLCopyBIN:
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\opencv_ffmpeg300.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\opencv_ffmpeg300.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbb.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbbmalloc.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc_debug.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbbmalloc_debug.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb_debug.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbb_debug.dll".
+Done Building Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\cmTC_efd0f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.07
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_0f811.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/20/2015 1:52:33 PM.
+Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\cmTC_0f811.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0f811.dir\Debug\".
+  Creating directory "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0f811.dir\Debug\cmTC_0f811.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0f811.dir\Debug\cmTC_0f811.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0f811.dir\Debug\\" /Fd"cmTC_0f811.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0f811.dir\Debug\\" /Fd"cmTC_0f811.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\cmTC_0f811.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp/Debug/cmTC_0f811.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp/Debug/cmTC_0f811.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_0f811.dir\Debug\CheckIncludeFile.obj
+  cmTC_0f811.vcxproj -> C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\cmTC_0f811.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_0f811.dir\Debug\cmTC_0f811.tlog\unsuccessfulbuild".
+  Touching "cmTC_0f811.dir\Debug\cmTC_0f811.tlog\cmTC_0f811.lastbuildstate".
+OCLCopyBIN:
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\opencv_ffmpeg300.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\opencv_ffmpeg300.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbb.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbbmalloc.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc_debug.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbbmalloc_debug.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb_debug.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbb_debug.dll".
+Done Building Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\cmTC_0f811.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.03
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a16df.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/20/2015 1:52:36 PM.
+Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\cmTC_a16df.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a16df.dir\Debug\".
+  Creating directory "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a16df.dir\Debug\cmTC_a16df.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a16df.dir\Debug\cmTC_a16df.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a16df.dir\Debug\\" /Fd"cmTC_a16df.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a16df.dir\Debug\\" /Fd"cmTC_a16df.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\cmTC_a16df.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp/Debug/cmTC_a16df.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp/Debug/cmTC_a16df.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_a16df.dir\Debug\CheckIncludeFile.obj
+  cmTC_a16df.vcxproj -> C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\cmTC_a16df.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_a16df.dir\Debug\cmTC_a16df.tlog\unsuccessfulbuild".
+  Touching "cmTC_a16df.dir\Debug\cmTC_a16df.tlog\cmTC_a16df.lastbuildstate".
+OCLCopyBIN:
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\opencv_ffmpeg300.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\opencv_ffmpeg300.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbb.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbbmalloc.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc_debug.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbbmalloc_debug.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb_debug.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbb_debug.dll".
+Done Building Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\cmTC_a16df.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.16
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_b2550.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/20/2015 1:52:39 PM.
+Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\cmTC_b2550.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b2550.dir\Debug\".
+  Creating directory "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b2550.dir\Debug\cmTC_b2550.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b2550.dir\Debug\cmTC_b2550.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b2550.dir\Debug\\" /Fd"cmTC_b2550.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b2550.dir\Debug\\" /Fd"cmTC_b2550.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\cmTC_b2550.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp/Debug/cmTC_b2550.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp/Debug/cmTC_b2550.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_b2550.dir\Debug\CheckIncludeFile.obj
+  cmTC_b2550.vcxproj -> C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\cmTC_b2550.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b2550.dir\Debug\cmTC_b2550.tlog\unsuccessfulbuild".
+  Touching "cmTC_b2550.dir\Debug\cmTC_b2550.tlog\cmTC_b2550.lastbuildstate".
+OCLCopyBIN:
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\opencv_ffmpeg300.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\opencv_ffmpeg300.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbb.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbbmalloc.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc_debug.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbbmalloc_debug.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb_debug.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbb_debug.dll".
+Done Building Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\cmTC_b2550.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.04
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/20/2015 2:08:24 PM.
+Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\3.3.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\3.3.0\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+OCLCopyBIN:
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\opencv_ffmpeg300.dll" to ".\opencv_ffmpeg300.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb.dll" to ".\tbb.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc.dll" to ".\tbbmalloc.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc_debug.dll" to ".\tbbmalloc_debug.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb_debug.dll" to ".\tbb_debug.dll".
+Done Building Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\3.3.0\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.26
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "opencv_ffmpeg300.dll"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "tbb.dll"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "tbbmalloc.dll"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "tbbmalloc_debug.dll"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "tbb_debug.dll"
+
+The CXX compiler identification is MSVC, found in "C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/3.3.0/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_349d0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/20/2015 2:08:27 PM.
+Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\cmTC_349d0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_349d0.dir\Debug\".
+  Creating directory "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_349d0.dir\Debug\cmTC_349d0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_349d0.dir\Debug\cmTC_349d0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_349d0.dir\Debug\\" /Fd"cmTC_349d0.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_349d0.dir\Debug\\" /Fd"cmTC_349d0.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\cmTC_349d0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp/Debug/cmTC_349d0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp/Debug/cmTC_349d0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_349d0.dir\Debug\testCXXCompiler.obj
+  cmTC_349d0.vcxproj -> C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\cmTC_349d0.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_349d0.dir\Debug\cmTC_349d0.tlog\unsuccessfulbuild".
+  Touching "cmTC_349d0.dir\Debug\cmTC_349d0.tlog\cmTC_349d0.lastbuildstate".
+OCLCopyBIN:
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\opencv_ffmpeg300.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\opencv_ffmpeg300.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbb.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbbmalloc.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc_debug.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbbmalloc_debug.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb_debug.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbb_debug.dll".
+Done Building Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\cmTC_349d0.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.11
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_8573a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/20/2015 2:08:30 PM.
+Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\cmTC_8573a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8573a.dir\Debug\".
+  Creating directory "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8573a.dir\Debug\cmTC_8573a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8573a.dir\Debug\cmTC_8573a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_8573a.dir\Debug\\" /Fd"cmTC_8573a.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_8573a.dir\Debug\\" /Fd"cmTC_8573a.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.3\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\cmTC_8573a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp/Debug/cmTC_8573a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp/Debug/cmTC_8573a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_8573a.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_8573a.vcxproj -> C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\cmTC_8573a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_8573a.dir\Debug\cmTC_8573a.tlog\unsuccessfulbuild".
+  Touching "cmTC_8573a.dir\Debug\cmTC_8573a.tlog\cmTC_8573a.lastbuildstate".
+OCLCopyBIN:
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\opencv_ffmpeg300.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\opencv_ffmpeg300.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbb.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbbmalloc.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc_debug.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbbmalloc_debug.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb_debug.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbb_debug.dll".
+Done Building Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\cmTC_8573a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.11
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_71448.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34209]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/20/2015 2:08:33 PM.
+Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\cmTC_71448.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_71448.dir\Debug\".
+  Creating directory "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_71448.dir\Debug\cmTC_71448.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_71448.dir\Debug\cmTC_71448.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_71448.dir\Debug\\" /Fd"cmTC_71448.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\feature_tests.cxx
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.31101 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_71448.dir\Debug\\" /Fd"cmTC_71448.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\feature_tests.cxx
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\cmTC_71448.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp/Debug/cmTC_71448.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/dkvandyke/Source/Repos/09_zLib/zlib125/build/CMakeFiles/CMakeTmp/Debug/cmTC_71448.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_71448.dir\Debug\feature_tests.obj
+  cmTC_71448.vcxproj -> C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\cmTC_71448.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_71448.dir\Debug\cmTC_71448.tlog\unsuccessfulbuild".
+  Touching "cmTC_71448.dir\Debug\cmTC_71448.tlog\cmTC_71448.lastbuildstate".
+OCLCopyBIN:
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\opencv_ffmpeg300.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\opencv_ffmpeg300.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbb.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbbmalloc.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbbmalloc_debug.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbbmalloc_debug.dll".
+  Copying file from "C:\Intel\INDE\OpenCV_3.0.0.53\\x86\vc12\bin\tbb_debug.dll" to "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\Debug\tbb_debug.dll".
+Done Building Project "C:\Users\dkvandyke\Source\Repos\09_zLib\zlib125\build\CMakeFiles\CMakeTmp\cmTC_71448.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.17
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

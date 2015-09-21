@@ -1,0 +1,19 @@
+Start testing: Aug 20 16:58 Pacific Daylight Time
+----------------------------------------------------------
+Unable to find executable: example
+1/1 Testing: example
+1/1 Test: example
+Command: ""
+Directory: C:/Users/dkvandyke/Source/Repos/09_zLib/zlib/build
+"example" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"example" end time: Aug 20 16:58 Pacific Daylight Time
+"example" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 20 16:58 Pacific Daylight Time

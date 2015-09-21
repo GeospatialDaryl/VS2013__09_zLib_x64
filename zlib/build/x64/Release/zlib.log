@@ -1,0 +1,2 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (example.vcxproj, minigzip.vcxproj, zlibstatic.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  zlib.vcxproj -> C:\Users\dkvandyke\Source\Repos\09_zLib\zlib\build\x64\Release\zlib.dll

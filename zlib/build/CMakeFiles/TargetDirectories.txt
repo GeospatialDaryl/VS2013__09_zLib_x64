@@ -1,0 +1,6 @@
+C:/Users/dkvandyke/Source/Repos/09_zLib/zlib/build/CMakeFiles/zlib.dir
+C:/Users/dkvandyke/Source/Repos/09_zLib/zlib/build/CMakeFiles/example.dir
+C:/Users/dkvandyke/Source/Repos/09_zLib/zlib/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/dkvandyke/Source/Repos/09_zLib/zlib/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/dkvandyke/Source/Repos/09_zLib/zlib/build/CMakeFiles/zlibstatic.dir
+C:/Users/dkvandyke/Source/Repos/09_zLib/zlib/build/CMakeFiles/minigzip.dir
